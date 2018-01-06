@@ -6,48 +6,51 @@
 	<link rel="stylesheet" href="calculator.css" type="text/css">
 </head>
 <body>
-<div class="calc-containser">
-	<div class="display-container">
-		<p class="display-text">0</p>
+<div class="calc-container">
+	<div class="calc-wrap">
+		<div class="display-container">
+			<p class="display-text">0</p>
+		</div>
+		<!-- end of .display-container -->
+		<div class="keyboard">
+			<!-- row 1 -->
+			<div class="row">
+				<button class="percent">%</button>
+				<button class="divide">/</button>
+				<button class="ac">AC</button>
+				<button class="ce">CE</button>
+			</div>
+			<!-- row 2 -->
+			<div class="row">
+				<button class="seven">7</button>
+				<button class="eight">8</button>
+				<button class="nine">9</button>
+				<button class="multiply">x</button>
+			</div>
+			<!-- row 3 -->
+			<div class="row">
+				<button class="four">4</button>
+				<button class="five">5</button>
+				<button class="six">6</button>
+				<button class="minus">-</button>
+			</div>
+			<!-- row 4 -->
+			<div class="row">
+				<button class="one">1</button>
+				<button class="two">2</button>
+				<button class="three">3</button>
+				<button class="addition">+</button>
+			</div>
+			<!-- row 5 -->
+			<div class="row">
+				<button class="zero">0</button>
+				<button class="decimal">.</button>
+				<button class="equals">=</button>
+			</div>
+		</div>
+		<!-- end of .keyboard -->
 	</div>
-	<!-- end of .display-container -->
-	<div class="keyboard">
-		<!-- row 1 -->
-		<div class="row">
-			<button class="percent">%</button>
-			<button class="divide">/</button>
-			<button class="ac">AC</button>
-			<button class="ce">CE</button>
-		</div>
-		<!-- row 2 -->
-		<div class="row">
-			<button class="seven">7</button>
-			<button class="eight">8</button>
-			<button class="nine">9</button>
-			<button class="multiply">x</button>
-		</div>
-		<!-- row 3 -->
-		<div class="row">
-			<button class="four">4</button>
-			<button class="five">5</button>
-			<button class="six">6</button>
-			<button class="minus">-</button>
-		</div>
-		<!-- row 4 -->
-		<div class="row">
-			<button class="one">1</button>
-			<button class="two">2</button>
-			<button class="three">3</button>
-			<button class="addition">+</button>
-		</div>
-		<!-- row 5 -->
-		<div class="row">
-			<button class="zero">0</button>
-			<button class="decimal">.</button>
-			<button class="equals">=</button>
-		</div>
-	</div>
-	<!-- end of .keyboard -->
+	<!-- end of .calc-wrap -->
 </div>
 	<script src="calculator.js"></script>
 </body>
