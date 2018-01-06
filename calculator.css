@@ -1,5 +1,5 @@
 body {
-    background: #C9D6DF;
+    background: #1e1e1e;
 }
 
 .calc-container {
@@ -17,7 +17,7 @@ body {
 .calc-container .calc-wrap {
    margin: auto;
    width: 100%;
-   background-color: #f0f5f9;
+   background-color: #f3feff;
 }
 
 .calc-wrap .display-container {
@@ -29,7 +29,7 @@ body {
 .calc-wrap .display-container p.display-text {
     text-align: right;
     padding: 5% 5%;
-    background: #52616B;
+    background: #031673;
     color: #F0F5F9;
     border: 1px solid grey;
     font-size: 32px;
